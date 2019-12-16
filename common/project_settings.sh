@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # The name of the project to deploy services into.
-PROJECT_NAME="ace-demo-2"
+PROJECT_NAME="lrb-ace-demo-2"
 
 # Which default region should regional services use?
 PROJECT_REGION="us-central1"
