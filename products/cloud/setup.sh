@@ -62,7 +62,7 @@ gcloud beta container clusters create $PRODUCT_CLUSTER_NAME \
     --project $PROJECT_NAME \
     --zone $PROJECT_ZONE \
     --no-enable-basic-auth \
-    --cluster-version "1.12.10-gke.15" \
+    --cluster-version "1.15.4-gke.22" \
     --machine-type "n1-standard-1" \
     --image-type "COS" \
     --disk-type "pd-standard" \
