@@ -72,7 +72,7 @@ gcloud beta container clusters create $PRODUCT_CLUSTER_NAME \
     --enable-stackdriver-kubernetes \
     --network $SERVICES_NETWORK \
     --subnetwork $PRODUCT_SUBNET \
-    --addons HorizontalPodAutoscaling,HttpLoadBalancing,KubernetesDashboard \
+    --addons HorizontalPodAutoscaling,HttpLoadBalancing \
     --enable-autoupgrade \
     --enable-autorepair \
     --service-account $SA_EMAIL
